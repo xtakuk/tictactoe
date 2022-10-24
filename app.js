@@ -33,9 +33,10 @@ app.get('/', (req, res) => {
 
 //リンク
 //row1-1
-app.get('/row1-1', (req, res) => {
+app.get('/tictactoe/row1-1', (req, res) => {
   res.render('Row1-1.ejs');
 });
+
 
 //row1-2
 app.get('/row1-2', (req, res) => {
